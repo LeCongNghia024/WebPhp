@@ -1,0 +1,96 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+  appearance: none;
+}
+
+.active .active2 {
+  background: #43CD80;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-order3 {
+  width: 1000px;
+  margin-top: 20px;
+}
+
+.form-order {
+  width: 100%;
+}
+
+.form-order2 {
+  display: flex;
+}
+
+.discount {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-order2 {
+  width: 800px;
+  height: 100px;
+  border: 3px dotted #43CD80;
+  display: flex;
+  justify-content: center;
+}
+
+.form-order {
+  min-height: 72vh;
+}
+
+.header-order {
+  display: flex;
+  justify-content: center;
+}
+
+.header-order-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  width: 700px;
+
+}
+
+.header-order-child2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.input-code {
+  width: 700px;
+  height: 40px;
+}
+
+.input {
+  border-radius: 6px;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  transition: .25s ease;
+
+}
+
+input:focus {
+  border-color: #FF3030;
+}
+
+label {
+  font-weight: bold;
+  transition: 0.25s ease;
+  margin-top: 10px;
+  display: block;
+}
+
+.textarea {
+  border-radius: 6px;
+  width: 100%;
+}

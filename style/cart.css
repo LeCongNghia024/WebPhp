@@ -1,0 +1,22 @@
+.cart2{
+    position: fixed;
+    bottom: 170px;
+    right: 50px;
+    transition: 0.5s;
+}
+.span{
+    right: 0px ;
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.cart2:hover{
+    transform: scale(1.5);
+}

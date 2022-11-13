@@ -1,0 +1,56 @@
+.title{
+    display: flex;
+}
+.thongbao{
+    background: #AAAAAA;
+    width: 500px;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+}
+.done {
+    min-height: 72vh;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.table td,
+.table th {
+    border-top: 1px solid black;
+}
+.header-order {
+display: flex;
+justify-content: center;
+}
+
+.header-order-child {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px;
+width: 700px;
+
+}
+
+.header-order-child2 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}

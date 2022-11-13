@@ -1,0 +1,40 @@
+.name{
+    margin: auto 1rem;
+}
+.topbar-divider{
+border-right: 1px solid black;
+height: calc(3.375rem - 1rem);
+margin: auto 0.25rem;
+}
+.dropdown-toggle::after {
+    display: contents;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-size: larger;
+}
+.image-con{
+    padding: 0 10px;}
+.navbar-brand{
+     padding-top: 20px;
+     justify-content: space-between;
+}
+.navbar {
+    /* background-image: url('./image/banner.jpg'); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    background: white;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.left-header {
+    display: flex;
+}
+a{
+text-decoration: none;
+}
+.header{
+height: 100px;
+}

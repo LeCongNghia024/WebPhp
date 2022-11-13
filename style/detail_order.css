@@ -1,0 +1,26 @@
+.done {
+    min-height: 72vh;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.table td,
+.table th {
+    border-top: 1px solid black;
+}
